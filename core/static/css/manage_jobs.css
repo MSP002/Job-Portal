@@ -1,0 +1,67 @@
+/* Full-page background */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+}
+
+/* Page wrapper to center container */
+.page-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Job container box */
+.job-container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 1000px;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+/* Table */
+.job-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.job-table th,
+.job-table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+.job-table th {
+    background-color: #009688;
+    color: white;
+}
+
+.job-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Logout button */
+.btn-wrapper {
+    text-align: right;
+}
+
+.logout-button {
+    background-color: #e91e63;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: #c2185b;
+}

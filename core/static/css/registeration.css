@@ -1,0 +1,90 @@
+/* Center the form on the screen */
+body {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.register-container {
+  width: 100%;
+  max-width: 450px;
+  padding: 35px 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register-container h2.form-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: #333;
+
+}
+
+.register-container form {
+  width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.register-container form p {
+  margin-bottom: 15px;
+}
+
+.register-container label {
+  font-weight: 500;
+  color: #444;
+}
+
+.register-container input[type="text"],
+.register-container input[type="email"],
+.register-container input[type="password"],
+.register-container select,
+.register-container textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.register-container input:focus,
+.register-container select:focus,
+.register-container textarea:focus {
+  border-color: #2575fc;
+  outline: none;
+  box-shadow: 0 0 0 0.15rem rgba(37, 117, 252, 0.25);
+}
+
+.btn-primary {
+  background-color: #2575fc;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #1a5be7;
+}
+
+a {
+  color: #2575fc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

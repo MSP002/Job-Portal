@@ -1,0 +1,63 @@
+/* Reset and base */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: #fff;
+  min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  padding: 15px 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Logout button styling */
+.btn-logout {
+  background-color: #ff4d4f;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-logout:hover {
+  background-color: #d9363e;
+  color: white;
+}
+
+/* Dashboard container */
+.container {
+  margin-top: 40px;
+}
+
+/* Dashboard card */
+.dashboard-card {
+  border-radius: 12px;
+  background-color: white;
+  color: #333;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Card buttons */
+.dashboard-card .btn {
+  background-color: #2575fc;
+  border: none;
+  font-weight: 500;
+}
+
+.dashboard-card .btn:hover {
+  background-color: #1a5ed9;
+}

@@ -1,0 +1,20 @@
+body {
+  background-color: #f1f4f8;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.job-form-box h2 {
+  font-weight: 600;
+  color: #333;
+}
+
+.job-form-box .btn-primary {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+a {
+  text-decoration: none;
+}

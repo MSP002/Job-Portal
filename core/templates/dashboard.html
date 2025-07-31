@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/dashboard.css' %}">
+</head>
+<body>
+
+    
+      <div class="hero">
+        <a class="btn btn-outline-light" href="/logout/">Logout</a>
+      </div>
+
+
+  <div class="container my-5">
+    <h2 class="mb-4 text-center">Welcome to Your Dashboard, {{ request.user.username }}</h2>
+
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="p-4 bg-white dashboard-card">
+          <h5>My Profile</h5>
+          <p>View and edit your profile info.</p>
+          <a href="#" class="btn btn-sm btn-primary">View Profile</a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="p-4 bg-white dashboard-card">
+          <h5>My Applications</h5>
+          <p>Track your job applications and their status.</p>
+          <a href="#" class="btn btn-sm btn-primary">View Applications</a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="p-4 bg-white dashboard-card">
+          <h5>Browse Jobs</h5>
+          <p>Search and apply for available job postings.</p>
+          <a href="#" class="btn btn-sm btn-primary">Find Jobs</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

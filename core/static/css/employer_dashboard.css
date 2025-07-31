@@ -1,0 +1,35 @@
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #89CFF0, #dbeafe);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+}
+
+.dashboard-box {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.dashboard-box h2 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.dashboard-box a {
+  display: block;
+  margin: 10px 0;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.dashboard-box a.btn {
+  width: 100%;
+}
